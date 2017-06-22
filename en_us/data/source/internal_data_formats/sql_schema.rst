@@ -2232,10 +2232,29 @@ Columns in the ``certificates_generatedcertificate`` Table
 ==========================================================
 
 The ``certificates_generatedcertificate`` table tracks the state of
-certificates and final grades for a course. The table is populated when a
-script is run to grade all of the learners who are enrolled in the course at
-that time and issue certificates. The certificate process can be rerun and
-this table is updated appropriately.
+certificates issued for a course. You can use this table to understand which of
+your learners received a certificate.
+
+This table stores a "snapshot" of the grade the learner earned at the time of
+certificate generation. This table does not contain a complete record of course
+grades. This table also does not include records for audit learners in courses
+that have on-demand certificates. For more grade and passing information, see
+the :ref:`grades_persistentcoursegrade` table or the
+:ref:`grades_persistentsubsectiongrade` table, or view the
+:ref:`grade report <partnercoursestaff:Access_grades>` that is available
+on the instructor dashboard.
+
+The ``certificates_generatedcertificate`` table is populated in two ways.
+
+* For courses that offer on-demand certificates, rows are updated when a
+  learner requests a certificate or when edX staff triggers a regrade. In these
+  courses, most entries are for learners who are in a certificate eligible
+  track and have passed the course.
+* For other courses, certificates are issued in batches by a script. / This
+  script generates grades for learners who are enrolled in the course at that
+  time and issues certificates. // This script creates a row for each learner
+  who is enrolled in the course at that time and issues certificates. / If the
+  certificate process is run again, the table is updated.
 
 A sample of the heading row and two data rows in the
 ``certificates_generatedcertificate`` table follows.
