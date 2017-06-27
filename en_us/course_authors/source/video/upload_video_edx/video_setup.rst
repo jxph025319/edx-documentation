@@ -1,11 +1,17 @@
 .. _Video Getting Started:
 
 ###########################
-Getting Started with Video
+Setting Up Video Uploads
 ###########################
 
+.. note::
+  This process applies only to courses that run on the edx.org site. For
+  information about adding video files to courses that run on Edge, see
+  :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
+
 Before your course teams can begin to upload videos in Studio, you work with
-edX partner support to make sure that these preparatory tasks are complete.
+edX partner support to make sure that the following preparatory tasks are
+complete.
 
 .. contents::
   :local:
@@ -15,10 +21,11 @@ After these tasks are complete, your course teams can :ref:`upload original
 video files<Uploading Videos in Studio>` in .mp4 or .mov format to Studio, and
 then :ref:`add the videos<Adding Videos to a Course>` to a course.
 
-.. important:: The tasks described in this section rely on the use of
- third-party tools and software. Because these tools are subject to change by
- their respective owners, the steps provided here are intended as
- guidelines and not as exact procedures.
+.. important::
+ The tasks described in this section rely on the use of third-party tools and
+ software. Because these tools are subject to change by their respective
+ owners, the steps provided here are intended as guidelines and not as exact
+ procedures.
 
 .. _Identify Video Administrators:
 
@@ -124,9 +131,9 @@ more.
 Creating YouTube Channels
 ===============================
 
-.. note:: This procedure only needs to be completed once per course, but it
- must be complete before the course team begins to add videos to the course in
- Studio.
+.. note::
+ This procedure only needs to be completed once per course, but it must be
+ complete before the course team begins to add videos to the course in Studio.
 
 #. In your browser, access YouTube by going to https://cms.youtube.com.
 
@@ -172,8 +179,9 @@ titles or changing a video's thumbnail. To provide these permissions, a video
 administrator obtains the email addresses of one or more course team members
 and invites them to manage the channel.
 
-.. note:: Video administrators use YouTube, but not the YouTube CMS, to add
- channel managers.
+.. note::
+ Video administrators use YouTube, but not the YouTube CMS, to add channel
+ managers.
 
 #. In your browser, use the CMSmanager email address to sign in to YouTube at
    https://www.youtube.com. A list of the channels in your account appears.
@@ -203,7 +211,8 @@ Course team members who complete the activation process are channel managers.
 When they log in to YouTube at https://www.youtube.com using the email address
 that has channel manager privileges, they can manage course content.
 
-.. important:: It takes up to 24 hours to complete the automated encoding and
- hosting process for each video file that a course team uploads in Studio.
- Channel managers cannot use YouTube to work with the resulting hosted file
- until after the process is complete.
+.. important::
+ It takes up to 24 hours to complete the automated encoding and hosting process
+ for each video file that a course team uploads in Studio. Channel managers
+ cannot use YouTube to work with the resulting hosted file until after the
+ process is complete.

@@ -1,13 +1,14 @@
 .. _Adding a PreRoll Video:
 
-*******************************************
-Adding a Pre-Roll Video to Your edX Course
-*******************************************
+################################################
+Add a Pre-Roll Video to Your edX Course
+################################################
 
-.. note:: Only courses that run on the edx.org website can include a pre-roll
- video. In addition, your organization must work with edX partner support to
- encode and host your video files. For more information, see `Processing Video
- Files`_.
+.. note::
+ Only courses that run on the edx.org website can include a pre-roll video. In
+ addition, your organization must work with edX partner support to encode and
+ host your video files. For more information, see :ref:`Video Processing
+ Overview`.
 
 You can create a short video message and configure it to play before the other
 videos in your course. For example, a pre-roll video might provide learners
@@ -18,9 +19,9 @@ XSeries. One pre-roll video can be included in each course.
   :local:
   :depth: 1
 
-=========================================
+*******************************************
 How Learners Experience a Pre-Roll Video
-=========================================
+*******************************************
 
 When a learner selects any video in the course, the defined course pre-roll
 video might automatically begin to play before the selected video plays. The
@@ -44,17 +45,18 @@ The following constraints control delivery of the pre-roll video to learners.
 * The pre-roll video plays only in web browsers. It does not play in the edX
   mobile applications.
 
-=========================================
+*******************************************
 Preparing the Pre-Roll Video
-=========================================
+*******************************************
 
 To include a pre-roll video in your course, you prepare the video file and its
 transcript file or files and upload them to Studio. Because the pre-roll video
 is not part of the course that is defined in the course outline, you do not use
 a video component to add the pre-roll video to your course.
 
+==============================================
 Guidelines for Creating Pre-Roll Videos
-*********************************************
+==============================================
 
 EdX encourages partners to consider these suggestions when deciding on the
 content for their pre-roll videos.
@@ -86,16 +88,18 @@ as many learners as possible.
   `Specifications for Successful Video Files`_ in the *Processing Video Files*
   guide.
 
+==============================================
 Upload the Pre-Roll Video File
-*********************************************
+==============================================
 
 After you create the file, you upload it on the Studio **Video Uploads** page.
 The file goes through the automated encoding and hosting process, and is given
 an identifying video ID. For more information, see `Upload Video Files`_ in
 the *Processing Video Files* guide.
 
+==============================================
 Prepare Pre-Roll Video Transcript Files
-*****************************************
+==============================================
 
 You must provide at least one transcript file for your pre-roll video. You can
 provide additional transcript files in multiple languages.
@@ -126,8 +130,9 @@ To prepare transcript files for a pre-roll video, follow these steps.
     edx_preroll_ru.srt
     edx_preroll_zh_HANS.srt
 
+==============================================
 Upload Pre-Roll Video Transcript Files
-***************************************
+==============================================
 
 To upload transcript files for a pre-roll video into Studio, follow these
 steps.
@@ -138,9 +143,9 @@ steps.
 
 #. Upload the files. For more information, see :ref:`Add Files to a Course`.
 
-================================================
+*********************************************
 Configuring a Pre-Roll Video for Your Course
-================================================
+*********************************************
 
 To configure a pre-roll video and its transcript files for your course, you use
 an advanced setting in Studio. Because the pre-roll video is not part of the
@@ -150,8 +155,9 @@ to add the pre-roll video.
 You can identify only one file as the pre-roll video at a time, but you can
 replace the file with a new one, or delete the file, at any time.
 
+================================================
 Identify the Pre-Roll Video and Its Transcripts
-************************************************
+================================================
 
 You identify the pre-roll video for your course in Studio. To make finding and
 entering the information that you need on different pages in Studio easier, edX
@@ -232,8 +238,9 @@ To identify the pre-roll video for your course, follow these steps.
           "video_id": "83cef264-d6f5-4cf2-ad9d-0178ab8c92cd"
       }
 
+================================================
 Replace the Pre-Roll Video and Its Transcripts
-***********************************************
+================================================
 
 You can change the pre-roll video for your course at any time.
 
@@ -257,9 +264,9 @@ To replace the pre-roll video for your course, follow these steps.
 
 #. Select **Save Changes**.
 
-
+=========================
 Remove the Pre-Roll Video
-****************************
+=========================
 
 To remove the pre-roll file from your course, follow these steps.
 

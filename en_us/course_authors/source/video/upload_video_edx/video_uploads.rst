@@ -4,6 +4,11 @@
 Uploading Videos in Studio
 ###########################
 
+.. note::
+  This process applies only to courses that run on the edx.org site. For
+  information about adding video files to courses that run on Edge, see
+  :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
+
 After a video administrator works with edX partner support to complete
 :ref:`preliminary setup<Video Getting Started>` for the entire institution,
 individual course teams can begin to upload video files for their courses in
@@ -19,95 +24,8 @@ at edX.
 
 The result of video processing is additional file formats that are transferred
 to multiple hosting services (YouTube CMS and Amazon AWS), ready for learners
-to access.
-
-.. _Specifications for Successful Video Files:
-
-***************************************************
-Specifications for Successful Video Files
-***************************************************
-
-Your videos can contain whatever content you want to include in the course.
-
-.. important:: Each video file that you upload must be less than 5GB in size.
-
-The `Creating Videos`_ section of `edX101 Overview of Creating an edX Course`_
-has some helpful pointers for creating good video content.
-
-
-.. _Maximum Video File Size:
-
-=========================
-Maximum Video File Size
-=========================
-
-The maximum size for each video file that you upload is 5 GB. The upload
-process fails for larger files.
-
-=========================
-Supported Video Formats
-=========================
-
-The automated processing that takes place at edX transforms each of your
-uploaded video files into several different formats. For this process to
-succeed, you must upload videos in **.mp4** or **.mov** format.
-
-===========================
-Compression Specifications
-===========================
-
-For best results, your video files should have these compression
-specifications.
-
-.. list-table::
-   :widths: 40 40
-   :stub-columns: 1
-
-   * - Codec & Container
-     - H.264, .mp4
-   * - Resolution & Frame Rate
-     - 1920x1080, progressive, 29.97 fps (see note)
-   * - Pixel Aspect Ratio
-     - 1.0
-   * - Bit Rate
-     - VBR, 2 pass
-   * - Target VBR
-     - 5 mbps
-   * - Max VBR
-     - 7.5 mbps
-   * - Audio
-     - AAC 44.1 / 192 kbps
-   * - Size
-     - 5GB maximum
-
-.. note:: Typically you export at the same frame rate that was used when you
- created the media file. For example, if you create the file in a country that
- uses the PAL system, you export at 25 fps instead of the NTSC standard of
- 29.97 fps.
-
-================================
-File Naming Conventions
-================================
-
-Each video file must have a unique name. The edX partner support team
-recommends that organizations define a naming convention for video files, and
-apply it to videos for all courses. At a minimum, your naming convention should
-include these elements.
-
-* A course identifier.
-* The year of the initial course run.
-* A revision or version number.
-
-An example naming convention is ``{course}_{year}_{segment}_{learning
-sequence}_{revision}.{type}``, which results in file names like
-``SPU27_2015_S1_1_0.mp4``.
-
-Video file names should include alphanumeric characters and underscores only.
-Periods should be used only to separate the file name from the extension that
-identifies its type.
-
-Standardizing the content and format of these file names helps all interested
-parties identify and track video files over time.
+to access. After video processing is complete, you make videos available to
+learners by adding video components in Studio.
 
 .. _Enable Video Upload in Studio2:
 
@@ -165,13 +83,18 @@ partner support team. See :ref:`Create YouTube Channels`.
    A rectangular tile appears on the page for each file. The file name, a
    progress bar, and the status of the file upload process appear in the tile.
 
+#. (optional) Select a thumbnail image for the video.
+
+.. Add more to thumbnail
+
 .. how many files can be uploaded at once
 .. what kind of bandwidth/connection is recommended
 
 .. You can use your browser to navigate to other pages while upload is in progress. Return to the Video Uploads page periodically to refresh the status for each file.
 
-.. important:: You must leave the **Video Uploads** page open in your
-   browser until the upload process is complete for all files.
+.. important::
+  You must leave the **Video Uploads** page open in your browser until the
+  upload process is complete for all files.
 
 When the status of an uploaded file changes to "Ready", the file upload process
 is successful. If the status of an upload is "Failed", the file upload process
@@ -184,9 +107,9 @@ page or by :ref:`downloading a report<Reporting Video Status>`.
 
 .. _Delete Videos from Upload Page:
 
-==================================================
-Remove Videos from the Video Uploads Page
-==================================================
+***************************
+Remove Video Files
+***************************
 
 A list of every file that you uploaded to the edX servers appears in the
 **Previous Uploads** section of the **Video Uploads** page. You can remove
@@ -218,7 +141,8 @@ Monitor Video Processing
 After your video files successfully reach the edX servers, automated
 processing begins.
 
-.. note:: Automated processing takes up to 24 hours to complete.
+.. note::
+  Automated processing takes up to 24 hours to complete.
 
 A list of every file that you attempt to upload to the edX servers appears in
 the **Previous Uploads** section of the **Video Uploads** page. The list
@@ -337,6 +261,4 @@ The edX encoding and hosting process produces these alternative formats to
 ensure optimal playback quality for your learners.
 
 
-.. _Creating Videos: https://courses.edx.org/courses/edX/edX101/2014/courseware/c2a1714627a945afaceabdfb651088cf/9dd6e5fdf64b49a89feac208ab544760/
 
-.. _edX101 Overview of Creating an edX Course: https://www.edx.org/node/5496#.VH8p51fF_FA
