@@ -68,9 +68,9 @@ learners by adding video components in Studio.
 Upload Video Files
 ***************************
 
-Before you can upload video files, the video upload feature must be enabled
-for the course. Your video administrator coordinates this task with the edX
-partner support team. See :ref:`Create YouTube Channels`.
+Before you can upload video files, the video upload feature must be enabled for
+the course. Your video administrator coordinates this task with the edX partner
+support team. For more information, see :ref:`Create YouTube Channels`.
 
 #. Open the course in Studio.
 
@@ -85,7 +85,9 @@ partner support team. See :ref:`Create YouTube Channels`.
 
 #. (optional) Select a thumbnail image for the video.
 
-.. Add more to thumbnail
+   The thumbnail image is the image that learners see before the video begins to play. Studio provides a thumbnail image by default for your videos. If you want
+
+.. Thumbnails: be live end of month - held up on DevOps - new videos will have default thumbnail, course teams can upload substitute. Only for HTML 5 videos so doesn't affect YouTube.
 
 .. how many files can be uploaded at once
 .. what kind of bandwidth/connection is recommended
