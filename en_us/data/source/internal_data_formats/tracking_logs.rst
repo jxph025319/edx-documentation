@@ -4186,9 +4186,6 @@ computer.
 
 ``event`` **Member Fields**:
 
-.. list-table::
-   :widths: 15 15 60
-   :header-rows: 1
 
 The ``edx.forum.thread.viewed`` events include many of the same ``event``
 member fields that are described for :ref:`forum_thread` events. The following
@@ -4201,6 +4198,7 @@ creation.
 * ``id``
 * ``team_id``
 * ``title``
+* ``title_truncated``
 * ``url``
 * ``user_course_roles``
 * ``user_forums_roles``
