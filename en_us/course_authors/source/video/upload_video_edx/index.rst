@@ -5,7 +5,7 @@ Step 3. Upload a Video for an edx.org Course
 ##############################################
 
 .. note::
-  This process applies only to courses that run on the edx.org site. For
+  **This process applies only to courses that run on the edx.org site.** For
   information about adding video files to courses that run on Edge, see
   :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
 

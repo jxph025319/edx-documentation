@@ -1,8 +1,8 @@
 .. _Additional Transcript Options:
 
-#############################
-Additional Transcript Options
-#############################
+#####################################
+Specify Additional Transcript Options
+#####################################
 
 .. contents::
   :local:

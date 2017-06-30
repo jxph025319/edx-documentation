@@ -5,8 +5,8 @@ Step 4. Add a Video to a Course
 ################################
 
 To add a video to a course, you create a video component in a unit in Studio,
-and then you add the following identifying information for the video to the
-video component.
+and then you add the following information for the video to the video
+component.
 
 * A display name for the component.
 
@@ -16,7 +16,8 @@ video component.
 
     For courses on edx.org, you use the **video ID** that the upload process
     automatically creates for your video. You find this video ID on the Video
-    Uploads page in Studio. For more information, see Copy the Video ID.
+    Uploads page in Studio. For more information, see :ref:`Copy the edX Video
+    ID`.
 
     For courses on Edge, you use the **video URL** that is created for the
     video when you upload the video to YouTube or another site. The video URL
@@ -30,27 +31,30 @@ video component.
 
   * ``http://youtu.be/OEoXaMPEzfM``
   * ``http://www.youtube.com/watch?v=OEoXaMPEzfM``
-  * ``https://s3.amazonaws.com/edx-course-videos/edx-
-    edx101/EDXSPCPJSP13-G030300.mp4``
+  * ``https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-G030300.mp4``
 
 * The video transcript. When you add the transcript to the video component, you
   can upload .srt files, or you can import subtitles or closed captions from
   YouTube.
 
+  For more information about obtaining a transcript, see :ref:`Create the
+  Transcript`.
+
   .. only:: Partners
 
-     A transcript for the video is available when the video has a status of
-     "Ready" on the **Video Uploads** page. Your captioning service provider
-     might deliver .srt files to you, or might add subtitles or closed captions
-     to your videos on YouTube.
+     For courses on edx.org, a transcript for the video is available when the
+     video has a status of "Ready" on the **Video Uploads** page. Your
+     captioning service provider might deliver .srt files to you, or might add
+     subtitles or closed captions to your videos on YouTube.
 
 .. only:: Partners
 
-    .. _Copy the edX Video ID:
+  .. _Copy the edX Video ID:
 
-    ************************
-    Copy the Video ID
-    ************************
+  .. note::
+    For courses on edx.org, the first step is to copy the video ID. Courses on Edge do not follow this procedure.
+
+    To copy the video ID, follow these steps.
 
     #. Open the course in Studio.
 
@@ -67,10 +71,9 @@ video component.
        **Video ID** field for a video component. For more information, see
        :ref:`Add the edX Video ID to a Video Component`.
 
-       .. note::
-        The **Previous Uploads** list has a video ID for every uploaded video
-        file. However, for a video to play successfully, the status for the
-        file must be "Ready" on the **Video Uploads** page.
+    Note that the **Previous Uploads** list has a video ID for every uploaded
+    video file. However, for a video to play successfully, the status for the
+    file must be "Ready" on the **Video Uploads** page.
 
     You can also download a report of all uploaded videos on the **Video
     Uploads** page: select **Download available encodings (.csv)**. The report
@@ -78,9 +81,9 @@ video component.
 
 .. _Create a Video Component:
 
-********************************
+*********************************
 Create a Video Component
-********************************
+*********************************
 
 To add a video and its transcript to your course, follow these steps.
 
@@ -107,20 +110,21 @@ To add a video and its transcript to your course, follow these steps.
        :ref:`Copy the edX Video ID`.
 
        .. note::
-         You do not need to add values to the **Default Video URL**, **Video
-         File URLs**, or **YouTube ID** fields. The video ID automatically
-         associates your video component with files on YouTube and AWS that are
-         optimized for viewing with different devices and bandwidths. The URLs
-         that are associated with the video ID override any existing values in
-         other fields.
+         When you add the video ID, you do not need to add values to the
+         **Default Video URL**, **Video File URLs**, or **YouTube ID** fields.
+         The video ID automatically associates your video component with files
+         on YouTube and AWS that are optimized for viewing with different
+         devices and bandwidths. The URLs that are associated with the video ID
+         override any existing values in other fields.
 
      * If your course will be on Edge, locate the **Default Video URL** field,
        and then enter the URL of the video.
 
 .. only:: Open_edX
 
-  4. Add the video ID or video URL. To do this, locate the **Default Video
-     URL** field, and then enter the URL of the video.
+  4. Add the video URL. To do this, locate the **Default Video URL** field, and
+     then enter the URL that was created when you uploaded the video to YouTube
+     or to another site.
 
    .. note::
      If you have created multiple versions that use different encodings or
@@ -178,13 +182,9 @@ To add a video and its transcript to your course, follow these steps.
 
 #. Select **Save** to save the video component.
 
-To test the transcript with the video, select the **Show transcript** (”) icon
-in the video player’s control bar. The transcript file scrolls while the video
-file plays. You can also test the transcript by selecting the **CC** icon.
+To test the transcript with the video, after you have saved the video, select
+the **Show transcript** (”) icon in the video player’s control bar. The
+transcript file scrolls while the video file plays. You can also test the
+transcript by selecting the **CC** icon.
 
-.. note::
-  In some cases, two sets of captions can appear when you select **CC**. This
-  situation can occur if YouTube is the host service for the video and your
-  YouTube account settings for playback are set to always show captions. As a
-  result, YouTube and your course might both provide captions for the video. To
-  correct this problem, select **CC** again or change your YouTube account setting.
+

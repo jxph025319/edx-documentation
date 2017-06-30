@@ -5,12 +5,14 @@ Video Processing Overview
 ###########################
 
 .. note::
-  This process applies only to courses that run on the edx.org site. For
+  **This process applies only to courses that run on the edx.org site.** For
   information about adding video files to courses that run on Edge, see
   :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
 
-This section provides an overview of the video process for edX partners. The
-following diagram shows a simplified view of this process.
+This section provides an overview of the video process for edX partners. This
+process creates a single video ID for each video that includes files for each
+of the different video formats as well as the hosting services for these files.
+The following diagram shows a simplified view of this process.
 
 .. image:: ../../../../shared/images/encoding_process_overview.png
  :width: 700
@@ -19,13 +21,12 @@ following diagram shows a simplified view of this process.
      YouTube and AWS, and providing the video ID to the course team. The course
      team monitors processing and adds the video to a course.
 
-
+.. note::
+  FOR REVIEWERS: Which of these images do you prefer? Upper or lower?
 
 .. image:: ../../../../shared/images/encoding_proc_overview.png
 
-This process creates a single video ID for each video that includes files for
-each of the different video formats as well as the hosting services for these
-files. For more information, see the following sections.
+
 
 .. important::
  The edX automation process does not include captioning services. Your course
@@ -33,6 +34,7 @@ files. For more information, see the following sections.
  your video files and then add the transcripts to the video in Studio. For more
  information, see :ref:`Add a Video Transcript`.
 
+For more information, see the following sections.
 
 .. contents::
   :local:
@@ -64,7 +66,7 @@ creates additional file formats and transfers the files to YouTube and AWS
 accounts to ensure optimal playback quality for course videos.
 
 .. image:: ../../../../shared/images/encoding_process.png
- :width: 600
+ :width: 500
  :alt: Flowchart of course team uploading a video, followed by edX assigning a
      video ID and then transcoding it into four formats and transferring the
      results to YouTube and AWS.
@@ -72,8 +74,8 @@ accounts to ensure optimal playback quality for course videos.
 .. important:: The automated encoding and hosting process takes up to **24
    hours** to complete.
 
-If a step fails to complete successfully the process includes multiple
-automated retries.
+If a step does not complete successfully, the process automatically tries again
+multiple times.
 
 Course teams can track the status of each video file on the Studio **Video
 Uploads** page as the videos go through automated processing.
@@ -96,9 +98,10 @@ can then add the video ID and the video transcript to a video component in the
 course outline. For more information, see :ref:`Adding Videos to a Course`.
 
 .. image:: ../../../../shared/images/add_video_process.png
- :alt: Flowchart showing the video process assigning video IDs, and course
-     teams obtaining the video IDs, monitoring the process, and adding video
-     components in the course.
+ :width: 300
+ :alt: Flowchart showing the video process assigning a video ID, and course
+     teams obtaining the video ID, monitoring the process, and adding a video
+     component in the course.
 
 When a learner uses the edX video player or the edX mobile app to access a
 course video, the video ID is what provides the connection to the URLs that

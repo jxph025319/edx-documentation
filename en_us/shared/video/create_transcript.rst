@@ -31,8 +31,6 @@ transcripts you receive are in .srt format.
 To ensure quality and accuracy of transcripts, edX works with `3Play Media`_
 and `Cielo24`_. `YouTube`_ also provides captioning services.
 
-.. SP: Do edX partners have to get transcripts independently, or is that part of the video processing?
-
 .. only:: Partners
 
     To request a 3Play Media account at edX’s discounted rate,

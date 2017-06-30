@@ -1,8 +1,8 @@
 .. _Additional Video Options:
 
-#############################
-Additional Video Options
-#############################
+#################################
+Specify Additional Video Options
+#################################
 
 When you provide a video and transcript, you can also specify additional
 options, such as whether learners can download the video and transcript, video
