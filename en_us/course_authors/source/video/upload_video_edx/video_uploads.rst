@@ -85,9 +85,14 @@ support team. For more information, see :ref:`Create YouTube Channels`.
 
 #. (optional) Select a thumbnail image for the video.
 
-   The thumbnail image is the image that learners see before the video begins to play. Studio provides a thumbnail image by default for your videos. If you want
+   The thumbnail image is the image that learners see before the video begins
+   to play. Studio provides a thumbnail image by default for your videos.
 
-.. Thumbnails: be live end of month - held up on DevOps - new videos will have default thumbnail, course teams can upload substitute. Only for HTML 5 videos so doesn't affect YouTube.
+   * If you want to change this default image, hover your cursor over the
+     image, select **Edit Thumbnail**, select an image from your computer, and
+     then select **Open**.
+   * If no default image is provided, select **Add Thumbnail**, select an image
+     from your computer, and then select **Open**.
 
 .. how many files can be uploaded at once
 .. what kind of bandwidth/connection is recommended
