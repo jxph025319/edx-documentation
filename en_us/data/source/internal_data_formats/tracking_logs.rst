@@ -4063,8 +4063,8 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        course-wide discussion.
 
        Also present for ``edx.forum.response.created``,
-       ``edx.forum.comment.created``, ``edx.forum.response.voted``, ``edx.forum.thread.viewed``, and
-       ``edx.forum.thread.voted``  events.
+       ``edx.forum.comment.created``, ``edx.forum.response.voted``,
+       ``edx.forum.thread.viewed``, and ``edx.forum.thread.voted``  events.
 
    * - ``category_name``
      - string
@@ -4072,8 +4072,8 @@ complete, the server emits an ``edx.forum.thread.created`` event.
        course-wide discussion.
 
        Also present for ``edx.forum.response.created``,
-       ``edx.forum.comment.created``, ``edx.forum.response.voted``, ``edx.forum.thread.viewed``, and
-       ``edx.forum.thread.voted``  events.
+       ``edx.forum.comment.created``, ``edx.forum.response.voted``,
+       ``edx.forum.thread.viewed``, and ``edx.forum.thread.voted``  events.
 
    * - ``commentable_id``
      - string
@@ -4136,8 +4136,7 @@ complete, the server emits an ``edx.forum.thread.created`` event.
 
    * - ``url``
      - string
-     - The escaped URL of the page the user was visiting when this event was
-       emitted.
+     - The escaped URL of the page from which the thread can be viewed.
 
        Also present for ``edx.forum.response.created``,
        ``edx.forum.comment.created``, and ``edx.forum.thread.viewed`` events.
@@ -4175,8 +4174,9 @@ computer.
 
 .. note::
   The initial version of ``edx.forum.thread.viewed``, added DD Jul 2017, does
-  not include discussion threads viewed on mobile devices. Future versions of
-  this event will include mobile devices.
+  not include the ``target_username`` member field for discussion threads that
+  are viewed on mobile devices. Future versions of this event will include the
+  ``target_username`` member field for discussion threads on all devices.
 
 **Component**: Discussion
 
