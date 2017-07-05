@@ -90,9 +90,12 @@ intended for all learners. Units or components that you do not restrict access
 to are available to all learners enrolled in your course, regardless of the
 enrollment track that they are in.
 
-.. note:: If a unit has group access restrictions set, all of its child
-   components inherit these group access restrictions unless you explicitly
-   set different group access restrictions for individual child components.
+.. note:: Components inherit any group access restrictions that are set for
+   their parent unit. If you set additional group access restrictions for a
+   component, make sure the component access settings do not contradict the
+   unit access settings. For example, you cannot give Group A of learners
+   access to a component if Group A does not have access to the unit that
+   contains the component.
 
 For details about how to modify unit access settings, see :ref:`Set Access
 Restrictions For a Unit`.
