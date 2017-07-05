@@ -7,25 +7,19 @@ Video Processing Overview
 .. note::
   **This process applies only to courses that run on the edx.org site.** For
   information about adding video files to courses that run on Edge, see
-  :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
+  :ref:`Step 3. Upload a Video for an edx Edge Course <Upload Video>`.
 
 This section provides an overview of the video process for edX partners. This
 process creates a single video ID for each video that includes files for each
 of the different video formats as well as the hosting services for these files.
 The following diagram shows a simplified view of this process.
 
-.. image:: ../../../../shared/images/encoding_process_overview.png
+.. image:: ../../../../shared/images/encoding_proc_overview.png
  :width: 700
  :alt: Flowchart of a course team uploading a video, followed by edX assigning
      a video ID, encoding and uploading the video in different formats to
      YouTube and AWS, and providing the video ID to the course team. The course
      team monitors processing and adds the video to a course.
-
-.. note::
-  FOR REVIEWERS: Which of these images do you prefer? Upper or lower?
-
-.. image:: ../../../../shared/images/encoding_proc_overview.png
-
 
 
 .. important::
@@ -41,10 +35,10 @@ For more information, see the following sections.
   :depth: 1
 
 ************************************
-Course Team Video Upload Overview
+Overview of the Video Upload Process
 ************************************
 
-First, the edX partner support team works with the appointed video
+First, the edX Partner Support team works with the appointed video
 administrators from your organization to establish accounts for your
 organization at YouTube™ and Amazon Web Services™ (AWS). For more information
 about the preliminary setup that your institution works with edX to complete,
@@ -86,9 +80,9 @@ Uploads** page as the videos go through automated processing.
  video files, and then add them to the video in Studio. For more information,
  see :ref:`Add a Video Transcript`.
 
-************************************
-Course Team Add Video Overview
-************************************
+**************************************
+Overview of Adding a Video to a Course
+**************************************
 
 In Studio, course teams can monitor the progress of each video that they upload
 and obtain the unique video ID for the video. After the automation process is

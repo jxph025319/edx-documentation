@@ -9,7 +9,7 @@ Uploading Videos in Studio
   information about adding video files to courses that run on Edge, see
   :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
 
-After a video administrator works with edX partner support to complete
+After a video administrator works with edX Partner Support to complete
 :ref:`preliminary setup<Video Getting Started>` for the entire institution,
 individual course teams can begin to upload video files for their courses in
 Studio. This section describes the specifications met by successful video
@@ -83,16 +83,10 @@ support team. For more information, see :ref:`Create YouTube Channels`.
    A rectangular tile appears on the page for each file. The file name, a
    progress bar, and the status of the file upload process appear in the tile.
 
-#. (optional) Select a thumbnail image for the video.
-
-   The thumbnail image is the image that learners see before the video begins
-   to play. Studio provides a thumbnail image by default for your videos.
-
-   * If you want to change this default image, hover your cursor over the
-     image, select **Edit Thumbnail**, select an image from your computer, and
-     then select **Open**.
-   * If no default image is provided, select **Add Thumbnail**, select an image
-     from your computer, and then select **Open**.
+#. (optional) Specify a thumbnail image for the video. The thumbnail image is
+   the image that learners see before the video begins to play. To do this,
+   hover the cursor over **Add Thumbnail**, select an image from your computer,
+   and then select **Open**.
 
 .. how many files can be uploaded at once
 .. what kind of bandwidth/connection is recommended
@@ -114,9 +108,9 @@ page or by :ref:`downloading a report<Reporting Video Status>`.
 
 .. _Delete Videos from Upload Page:
 
-***************************
-Remove Video Files
-***************************
+*****************************************
+Remove Videos from the Video Uploads Page
+*****************************************
 
 A list of every file that you uploaded to the edX servers appears in the
 **Previous Uploads** section of the **Video Uploads** page. You can remove

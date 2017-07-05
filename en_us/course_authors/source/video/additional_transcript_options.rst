@@ -7,13 +7,13 @@
 Upload an .sjson File (Deprecated)
 ***************************************
 
+.. note::
+  Only older courses that have used .sjson files in the past use .sjson files.
+  All new courses use .srt files.
+
 If your course uses .sjson files, you upload the .sjson file for the video
 to the **Files & Uploads** page, and then specify the name of the .sjson file
 in the video component.
-
-.. note::
-  Only older courses that have used .sjson files in the past should use .sjson
-  files. All new courses should use .srt files.
 
 #. Obtain the .sjson file from a media company such as 3Play.
 #. Change the name of the .sjson file to use the following format.

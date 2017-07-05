@@ -6,7 +6,7 @@ undertaking.
 * Videos need to be available in several different formats to play on
   desktop computers, laptops, smartphones, and other mobile devices.
 * Videos need to be available for both download and streaming for learners with
-  slow or intermittent Internet connections.
+  slow or intermittent internet connections.
 
 To reach as many learners as possible, we recommend that you post copies of
 your videos in multiple formats and on more than one site.

@@ -77,9 +77,9 @@ file name.
 
 For example, you have two videos, named video1.mp4 and video2.mp4, and their
 original transcripts are named video1.srt and video2.srt. When you add Spanish
-transcripts for these videos, you name them video1_ES.srt and video2_ES.srt.
+transcripts for these videos, you name them video1_es.srt and video2_es.srt.
 Later, when you add Russian transcripts for the videos, you name them
-video1_RU.srt and video2_RU.srt.
+video1_ru.srt and video2_ru.srt.
 
 To add a transcript to a video component, follow these steps.
 

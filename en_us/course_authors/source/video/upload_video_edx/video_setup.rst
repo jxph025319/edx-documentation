@@ -7,10 +7,10 @@ Setting Up Video Uploads
 .. note::
   **This process applies only to courses that run on the edx.org site.** For
   information about adding video files to courses that run on Edge, see
-  :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
+  :ref:`Step 3. Upload a Video for an edx Edge Course <Upload Video>`.
 
 Before your course teams can begin to upload videos in Studio, you work with
-edX partner support to make sure that the following preparatory tasks are
+edX Partner Support to make sure that the following preparatory tasks are
 complete.
 
 .. contents::
@@ -35,7 +35,7 @@ Identify Video Administrators
 
 Each partner institution identifies one person, or more often several
 people, to be video administrators. The video administrators periodically use
-the YouTube Content Management System (CMS) to access the video files that
+the YouTube content management system (CMS) to access the video files that
 are hosted by YouTube and the reports that YouTube produces.
 
 Video administrators use the CMS to access your YouTube channels, the
@@ -133,7 +133,7 @@ Creating YouTube Channels
 
 .. note::
  This procedure only needs to be completed once per course, but it must be
- complete before the course team begins to add videos to the course in Studio.
+ completed before the course team begins to add videos to the course in Studio.
 
 #. In your browser, access YouTube by going to https://cms.youtube.com.
 

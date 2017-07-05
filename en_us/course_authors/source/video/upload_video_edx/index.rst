@@ -7,7 +7,7 @@ Step 3. Upload a Video for an edx.org Course
 .. note::
   **This process applies only to courses that run on the edx.org site.** For
   information about adding video files to courses that run on Edge, see
-  :ref:`Step 3. Upload a Video for an edx Edge Course <Post the Video Online>`.
+  :ref:`Step 3. Upload a Video for an edx Edge Course <Upload Video>`.
 
 Making course videos available to as many learners as possible can be a complex
 undertaking.
@@ -17,7 +17,7 @@ undertaking.
 * Videos need to be available in several different formats to play on
   desktop computers, laptops, smartphones, and other mobile devices.
 * Videos need to be available for both download and streaming for learners with
-  slow or intermittent Internet connections.
+  slow or intermittent internet connections.
 
 To help course teams at partner institutions deliver high quality video
 experiences to as many learners as possible, edX offers video processing
