@@ -552,15 +552,18 @@ To override a learner's score for a specific problem by using the instructor
 dashboard, follow these steps.
 
 #. Obtain the location identifier for the problem that you want to rescore.
-   For information, see :ref:`find_URL`.
+   For more information, see :ref:`find_URL`.
 
 #. View the live version of your course.
 
 #. Select **Instructor**, and then select **Student Admin**.
 
-#. In the **Score Override** section of the page, enter the location of the
-   problem, enter the new score for the problem, and then select **Override
-   Learner's Score**.
+#. Under **Adjust a learner's grade for a specific problem**, enter the
+   learner's email address or username, and then enter the location of the
+   problem in the course. For more information, see :ref:`find_URL`.
+
+#. Under **Score Override**, enter the new score for the problem, and then
+   select **Override Learner's Score**.
 
 #. In the confirmation dialog box, select **OK** for each of the confirmation
    and status messages.
@@ -586,9 +589,10 @@ viewer, follow these steps.
    you want.
 #. Display the problem, and then select **Staff Debug Info**. The Staff Debug
    viewer opens.
-#. In the **Username** field, enter the learner’s email address or username,
-   and then select **PLACEHOLDER**. A message indicates a successful
-   adjustment.
+#. In the **Username** field, enter the learner’s email address or username.
+#. In the **Score (for override only)** field, enter the correct score for the
+   learner, and then select **Override Score**. A message indicates a
+   successful adjustment.
 #. To close the Staff Debug viewer, click on the browser page outside of the
    viewer.
 
