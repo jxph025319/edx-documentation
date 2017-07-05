@@ -132,9 +132,12 @@ enabled cohorts, you can limit a component's availability to specific groups of
 learners. For information about offering different content to different learner
 groups, see :ref:`Offering Differentiated Content`.
 
-.. note:: If a unit has group access restrictions set, all of its child
-   components inherit these group access restrictions unless you explicitly
-   set different group access restrictions for individual child components.
+.. note:: Components inherit any group access restrictions that are set for
+   their parent unit. If you set additional group access restrictions for a
+   component, make sure the component access settings do not contradict the
+   unit access settings. For example, you cannot give Group A of learners
+   access to a component if Group A does not have access to the unit that
+   contains the component.
 
 To specify a component's access settings, follow these steps.
 
