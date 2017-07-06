@@ -565,11 +565,12 @@ dashboard, follow these steps.
 #. Under **Score Override**, enter the new score for the problem, and then
    select **Override Learner's Score**.
 
+   .. note::
+     Make sure that the new score is out of the weighted total points for the
+     problem.
+
 #. In the confirmation dialog box, select **OK** for each of the confirmation
    and status messages.
-
-   The override process can take some time to complete. You can navigate away
-   from this page and do other work while the process runs in the background.
 
 #. To view the results of the rescore process, select **Show Task Status**.
 

@@ -6704,6 +6704,7 @@ they do for the :ref:`edx_grades_course_grade_calculated` event.
 .. _edx_grades_problem_score_overridden:
 
 ``edx.grades.problem.score_overridden``
+***************************************
 
 When a course team member successfully overrides a learner's score for a
 problem, the server emits an ``edx.grades.problem.score_overridden`` event.
