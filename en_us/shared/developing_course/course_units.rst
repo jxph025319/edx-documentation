@@ -428,7 +428,6 @@ Tp specify a unit's access settings, follow these steps.
       **Access** icon next to a unit's name on a unit page in Studio.
 
    .. image:: ../../../shared/images/unit-access-settings-gear-icon.png
-
     :alt: The gear icon next to a unit's title on the unit page in Studio is
        another way to launch the unit access settings dialog.
     :width: 200
