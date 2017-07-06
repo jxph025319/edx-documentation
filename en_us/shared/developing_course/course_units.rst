@@ -432,9 +432,8 @@ Tp specify a unit's access settings, follow these steps.
     :alt: The visibility and access settings dialog for a unit, with a
     :width: 200
 
-
-    After you select a group type, you see a list of the groups that exist for
-    that group type.
+   After you select a group type, you see a list of the groups that exist for
+   that group type.
 
 
 4. Select the checkbox for each group for which you want the current unit to
