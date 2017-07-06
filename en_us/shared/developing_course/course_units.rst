@@ -409,6 +409,16 @@ Tp specify a unit's access settings, follow these steps.
     :alt: The configure icon in a unit's toolbar in the Studio course outline.
     :width: 500
 
+   You can also access the **Restrict access to** option from the gear icon
+   next to a unit's name on a unit page in Studio.
+
+
+   .. image:: ../../../shared/images/unit-access-settings-gear-icon.png
+    :alt: The gear icon next to a unit's title on the unit page in Studio is
+       another way to launch the unit access settings dialog.
+    :width: 400
+
+
 #. In the unit's **Settings** dialog box, for the **Restrict access to**
    option, select the group type by which you want to restrict access.
 
@@ -417,20 +427,11 @@ Tp specify a unit's access settings, follow these steps.
    Groups** option is available only if you have created :ref:`content
    groups<About Content Groups>` for use with cohorts.
 
+
    .. image:: ../../../shared/images/unit-access-settings.png
     :alt: The visibility and access settings dialog for a unit, with a
-       dropdown list for selecting the type of learner group you will use for
-       restricting access.
     :width: 200
 
-
-   .. note:: You can also access the **Restrict access to** option from the
-      **Access** icon next to a unit's name on a unit page in Studio.
-
-   .. image:: ../../../shared/images/unit-access-settings-gear-icon.png
-    :alt: The gear icon next to a unit's title on the unit page in Studio is
-       another way to launch the unit access settings dialog.
-    :width: 200
 
     After you select a group type, you see a list of the groups that exist for
     that group type.
