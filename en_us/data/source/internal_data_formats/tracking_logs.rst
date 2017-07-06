@@ -6710,6 +6710,8 @@ problem, the server emits an ``edx.grades.problem.score_overridden`` event.
 
 **Event Source**: Server
 
+**History**: Added DD Jul 2017.
+
 ``event`` **Member Fields**:
 
 In addition to the :ref:`common<context>` ``context`` member fields, this event
