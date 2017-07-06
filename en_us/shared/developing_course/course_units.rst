@@ -427,7 +427,11 @@ Tp specify a unit's access settings, follow these steps.
    .. note:: You can also access the **Restrict access to** option from the
       **Access** icon next to a unit's name on a unit page in Studio.
 
-.. image to come
+   .. image:: ../../../shared/images/unit-access-settings-gear-icon.png
+
+    :alt: The gear icon next to a unit's title on the unit page in Studio is
+       another way to launch the unit access settings dialog.
+    :width: 200
 
     After you select a group type, you see a list of the groups that exist for
     that group type.
