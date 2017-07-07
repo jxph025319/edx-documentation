@@ -10,9 +10,9 @@ Video Processing Overview
   :ref:`Step 3. Upload a Video for an edx Edge Course <Upload Video>`.
 
 This section provides an overview of the video process for edX partners. This
-process creates a single video ID for each video that includes files for each
-of the different video formats as well as the hosting services for these files.
-The following diagram shows a simplified view of this process.
+process creates a single video ID for each video. This video ID represents
+files for each of the different video formats as well as the hosting services
+for these files. The following diagram shows a simplified view of this process.
 
 .. image:: ../../../../shared/images/encoding_proc_overview.png
  :width: 700
@@ -23,10 +23,10 @@ The following diagram shows a simplified view of this process.
 
 
 .. important::
- The edX automation process does not include captioning services. Your course
- teams use your organization's current workflow to generate transcripts for
- your video files and then add the transcripts to the video in Studio. For more
- information, see :ref:`Add a Video Transcript`.
+ The edX automation process **does not** include captioning services. Your
+ course teams use your organization's current workflow to generate transcripts
+ for your video files and then add the transcripts to the video in Studio. For
+ more information, see :ref:`Add a Video Transcript`.
 
 For more information, see the following sections.
 
@@ -75,10 +75,10 @@ Course teams can track the status of each video file on the Studio **Video
 Uploads** page as the videos go through automated processing.
 
 .. note::
- The edX automation process does not include captioning services. Your course
- teams use your institution's current workflow to generate transcripts for your
- video files, and then add them to the video in Studio. For more information,
- see :ref:`Add a Video Transcript`.
+ The edX automation process **does not** include captioning services. Your
+ course teams use your institution's current workflow to generate transcripts
+ for your video files, and then add them to the video in Studio. For more
+ information, see :ref:`Add a Video Transcript`.
 
 **************************************
 Overview of Adding a Video to a Course
@@ -105,6 +105,6 @@ the edX mobile apps, see :ref:`installation:Configuring Video Modules for
 Mobile`.
 
 The course team can add a video to their course as soon as its unique video ID
-is assigned, and the video plays in the LMS as soon as its status is Ready.
+is assigned, and the video plays in the LMS as soon as its status is "Ready".
 However, processing takes 24 hours to complete for all encodings and all video
 hosting sites.

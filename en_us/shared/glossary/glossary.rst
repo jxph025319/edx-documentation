@@ -155,11 +155,12 @@ C
 
   For more information, see :ref:`learners:Video Player`.
 
-.. _codec:
+.. _codec_g:
 
 **codec**
 
-  A portmanteau of "code" and "decode". A computer program that can encode or decode a data stream.
+  A portmanteau of "code" and "decode". A computer program that can encode or
+  decode a data stream.
 
 .. _Cohort:
 

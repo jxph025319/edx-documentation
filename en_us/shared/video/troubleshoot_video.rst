@@ -18,12 +18,11 @@ When you use video, you might experience one of the following problems.
 
   * Verify that file metadata, particularly the MIME type, is correctly set on
     the host site. For example, when edX offered support for Internet Explorer
-    10 browsers, it was found that videos did not play if the MIME type was not
-    set. The HTTP header ``Content-Type`` had to be set to video/mp4 for an
-    .mp4 file.
+    10 browsers, videos did not play if the MIME type was not set. The HTTP
+    header ``Content-Type`` had to be set to video/mp4 for an .mp4 file.
 
-    As an example of how you might set metadata on a video backup site, the
-    *Console User Guide* for the Amazon Simple Storage Service provides this
+    As an example of how you might set metadata on a video host site, the
+    *Console User Guide* for Amazon Simple Storage Service (S3) provides
     information about `editing object metadata`_.
 
 * If two sets of captions appear when you select **CC** on the video player,

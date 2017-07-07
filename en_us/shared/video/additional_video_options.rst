@@ -4,13 +4,15 @@
 Specify Additional Video Options
 #################################
 
-When you provide a video and transcript, you can also specify additional
-options, such as whether learners can download the video and transcript, video
-license options, and a start and stop time for the video.
+When you create a video component, you can specify additional options such as
+download options for the video and transcript, video license options, and a
+start and stop time for the video.
 
 .. contents::
   :local:
   :depth: 1
+
+.. _Enable Video and Transcript Downloads:
 
 ********************************************
 Enable Video and Transcript Downloads
@@ -18,10 +20,6 @@ Enable Video and Transcript Downloads
 
 You can allow learners to download videos and transcript files that you have
 provided so that they can view them offline.
-
-.. note::
-  For the video to be available, a destination URL must be available for at
-  least one of the formats and host sites.
 
 To enable video and transcript downloads, follow these steps.
 
@@ -33,8 +31,8 @@ To enable video and transcript downloads, follow these steps.
 #. Select **Save**.
 
 To test transcript downloads for the video, select **Download transcript** in
-the video player’s control bar. You can choose either the SubRip (.srt) format
-or text (.txt) format to download.
+the video player’s control bar. You can download either the SubRip (.srt)
+format or text (.txt) format.
 
 .. _Video Advanced Options:
 
@@ -72,14 +70,10 @@ The following options appear on the **Advanced** page of the video component.
           When you add a transcript to the **Downloadable Transcript URL**
           field, only the transcript that you add is available for download.
           The .srt and .txt transcripts become unavailable. If you want to
-          provide a downloadable transcript in a format other than .srt, edX
-          recommends that you upload a handout for learners by using the
-          **Upload Handout** field. For more information, see :ref:`Additional
-          Transcripts`.
-
-    * - **EdX Video ID**
-      - An optional field used only by course teams that are working with
-        edX to process and host video files.
+          provide a downloadable transcript in addition to the .srt and .txt
+          transcripts, edX recommends that you upload a handout for learners by
+          using the **Upload Handout** field. For more information, see
+          :ref:`Additional Transcripts`.
 
     * - **License**
       - Optionally, you can set the license for the video, if you want to
@@ -100,15 +94,16 @@ The following options appear on the **Advanced** page of the video component.
     * - **Show Transcript**
       - Specifies whether the transcript appears next to the video by default.
         If this is set to **False**, learners can still view transcripts by
-        selecting the quotation mark (”) icon.
+        selecting the **Show Transcript** (”) icon.
     * - **Transcript Languages**
       - The transcript files for any additional languages. For more
         information, see :ref:`Transcripts in Additional Languages`.
     * - **Upload Handout**
-      - Allows you to upload a handout to accompany this video. Your handout
-        can be in any format. Learners can download the handout by selecting
-        **Download Handout** under the video. For more information, see
-        :ref:`Additional Transcripts`.
+      - Allows you to upload a handout to accompany this video, such as a PDF
+        transcript or other handout. Learners can download the handout by
+        selecting **Download Handout** under the video. The procedure for
+        adding handouts is the same as the procedure for adding a supplemental
+        transcript. For more information, see :ref:`Additional Transcripts`.
     * - **Video Available on Web Only**
       - If you select **True**, learners are only allowed to play this video
         in a web browser. If you select **False**, learners can use any
@@ -124,15 +119,12 @@ The following options appear on the **Advanced** page of the video component.
         YouTube URL. Learners will view the first listed video that is
         compatible with their computer or mobile device.
 
-        If you want learners to be able to download the video, you must set the
-        **Video Download Allowed** option to **True**.
-
         To help make sure all standard browsers can play your video, we
         **strongly** recommend that you use the .mp4 format.
 
     * - **Video ID**
-      - An optional field used only by course teams that are working with
-        edX to process and host video files.
+      - A field used only by course teams that are working with edX to process
+        and host video files.
     * - **Video Start Time**
       - The time you want the video to start if you do not want the entire
         video to play. Use HH:MM:SS format. The maximum value is 23:59:59.
@@ -151,9 +143,9 @@ The following options appear on the **Advanced** page of the video component.
 
     * - **YouTube IDs**
       - If you have uploaded separate video files to YouTube for different
-        speeds of your video (YouTube ID for .75x speed, YouTube ID for 1.25x
-        speed, YouTube ID for 1.5x speed), enter the YouTube IDs for these
-        videos in these fields. These settings are optional, to support video
-        play on older browsers.
+        speeds of your video (such as a separate video file for .75x, 1.25x,
+        and 1.5x speeds), enter the YouTube IDs for these videos in these
+        fields. These settings are optional, to support video play on older
+        browsers.
 
 

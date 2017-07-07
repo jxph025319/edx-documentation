@@ -542,3 +542,5 @@
 .. _edX101 Overview of Creating an edX Course: https://www.edx.org/node/5496#.VH8p51fF_FA
 
 .. _12 Principles of Multimedia Learning: http://hartford.edu/academics/faculty/fcld/data/documentation/technology/presentation/powerpoint/12_principles_multimedia.pdf
+
+.. _List of ISO 639-1 codes: http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes

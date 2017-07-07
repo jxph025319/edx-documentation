@@ -12,26 +12,20 @@ Specify Additional Transcript Options
 Modify a Video Transcript
 ***************************
 
-If you want to modify an existing video transcript, take one of the following
-actions.
-
-* If you want to modify a previously uploaded .srt transcript, follow these
-  steps.
+If you want to modify an existing .srt or YouTube video transcript, follow
+these steps.
 
   #. In Studio, open the video component for the video.
-  #. Next to **Default Timed Transcript**, select **Download Transcript for
-     Editing**.
-  #. Make any changes that you want.
+  #. For an .srt transcript, locate **Default Timed Transcript**, and then
+     select **Download Transcript for Editing**.
+
+     For a YouTube transcript, locate **Default Timed Transcript**, select
+     **Import YouTube Transcript** to import the YouTube transcript into
+     Studio, and then select **Download Transcript for Editing**.
+
+  #. In a text editor, make any changes that you want.
   #. Select **Upload New Transcript** to upload the edited file.
 
-* If you want to modify a YouTube transcript, follow these steps.
-
-  #. In Studio, open the video component for the video.
-  #. Next to **Default Timed Transcript**, select **Import YouTube Transcript**
-     to import the YouTube transcript into Studio.
-  #. Select **Download Transcript for Editing**.
-  #. Make any changes that you want.
-  #. Select **Upload New Transcript** to upload the edited file.
 
 .. _Additional Transcripts:
 
@@ -39,10 +33,14 @@ actions.
 Add a Supplemental Downloadable Transcript
 ******************************************
 
+.. note::
+  You can also use this procedure to upload a different kind of handout for
+  learners to download, such as an image or a chart.
+
 By default, a .txt file is created when you upload an .srt file, and learners
-can download either the .srt or .txt transcript when you set **Download
-Transcript Allowed** to **True**. Options to download these transcripts appear
-below the video.
+can download either the .srt or .txt transcript when you allow transcript
+downloads. For more information about allowing transcript downloads, see
+:ref:`Enable Video and Transcript Downloads`.
 
 In addition, you can provide a downloadable transcript in a format such as
 .pdf. To do this, you upload the additional transcript in the video player as a
@@ -57,6 +55,8 @@ To add another downloadable transcript, follow these steps.
 #. In the dialog box, select the file on your computer, and then select
    **Open**.
 #. In the **Upload File** dialog box, select **Upload**.
+
+
 
 .. _Transcripts in Additional Languages:
 
@@ -76,10 +76,10 @@ additional transcript files by appending the transcript's language to the video
 file name.
 
 For example, you have two videos, named video1.mp4 and video2.mp4, and their
-original transcripts are named video1.srt and video2.srt. When you add Spanish
-transcripts for these videos, you name them video1_es.srt and video2_es.srt.
-Later, when you add Russian transcripts for the videos, you name them
-video1_ru.srt and video2_ru.srt.
+original transcripts are named video1.srt and video2.srt. When you add Hindi
+transcripts for these videos, you name them video1_hi.srt and video2_hi.srt.
+When you add Spanish transcripts for the videos, you name them video1_es.srt
+and video2_es.srt.
 
 To add a transcript to a video component, follow these steps.
 

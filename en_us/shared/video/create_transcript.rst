@@ -55,7 +55,13 @@ following conventions for naming your transcript files.
 Providing Transcripts in Other Formats
 ======================================
 
-You can provide transcripts in formats other than the .srt format, such as
+By default, a .txt file is created when you upload an .srt file, and learners
+can download either the .srt or .txt transcript when you allow transcript
+downloads. Options to download these transcripts appear below the video. For
+more information about allowing transcript downloads, see :ref:`Enable Video
+and Transcript Downloads`.
+
+You can also provide transcripts in formats other than the .srt format, such as
 .pdf, and you can provide additional transcript files in different languages.
 For more information about these options, see :ref:`Additional Transcript
 Options`.
@@ -64,7 +70,7 @@ Options`.
 
   .. note::
     Historically, some courses used .sjson files for video transcripts. Use of
-    .sjson files is no longer recommended; however, if transcripts in your
+    .sjson files is no longer recommended. However, if transcripts in your
     course use this format, see :ref:`Steps for sjson files`.
 
 .. include:: ../../../links/links.rst

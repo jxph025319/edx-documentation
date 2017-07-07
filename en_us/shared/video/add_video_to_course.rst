@@ -15,9 +15,9 @@ component.
   .. only:: Partners
 
     For courses on edx.org, you use the **video ID** that the upload process
-    automatically creates for your video. You find this video ID on the Video
-    Uploads page in Studio. For more information, see :ref:`Copy the edX Video
-    ID`.
+    automatically creates for your video. You find this video ID on the **Video
+    Uploads** page in Studio. For more information, see :ref:`Create a Video
+    Component`.
 
     For courses on Edge, you use the **video URL** that is created for the
     video when you upload the video to YouTube or another site. The video URL
@@ -26,8 +26,8 @@ component.
   .. only:: Open_edX
 
     The video location is the video URL that is created when you upload the
-    video to YouTube or to another site. The video URL might resemble one of
-    the following examples.
+    video to YouTube or to another hosting site. The video URL might resemble
+    one of the following examples.
 
   * ``http://youtu.be/OEoXaMPEzfM``
   * ``http://www.youtube.com/watch?v=OEoXaMPEzfM``
@@ -47,18 +47,23 @@ component.
      captioning service provider might deliver .srt files to you, or might add
      subtitles or closed captions to your videos on YouTube.
 
+.. _Create a Video Component:
+
+*********************************
+Create a Video Component
+*********************************
+
 .. only:: Partners
 
-  .. _Copy the edX Video ID:
-
   .. note::
-    For courses on edx.org, the first step is to copy the video ID. Courses on Edge do not follow this procedure.
+    For courses on edx.org, the first step is to copy the video ID. Courses on
+    Edge do not follow this procedure.
 
     To copy the video ID, follow these steps.
 
     #. Open the course in Studio.
 
-    #. Select **Content**, then **Video Uploads**.
+    #. On the **Content** menu, select **Video Uploads**.
 
     #. In the **Previous Uploads** list, locate the video that you want to
        include in the course.
@@ -79,12 +84,6 @@ component.
     Uploads** page: select **Download available encodings (.csv)**. The report
     includes the video ID for every uploaded file.
 
-.. _Create a Video Component:
-
-*********************************
-Create a Video Component
-*********************************
-
 To add a video and its transcript to your course, follow these steps.
 
 #. In Studio, locate the unit that you want, and then select **Video** under
@@ -99,7 +98,7 @@ To add a video and its transcript to your course, follow these steps.
 
    This name appears as a heading above the video in the LMS, and it identifies
    the video for you in Insights. If you do not enter a display name, the
-   platform supplies “video” for you.
+   platform specifies “video” for you.
 
 .. only:: Partners
 
@@ -107,7 +106,7 @@ To add a video and its transcript to your course, follow these steps.
 
      * If your course will be on edx.org, locate the **Video ID** field, and
        then paste the video ID for the video file. For more information, see
-       :ref:`Copy the edX Video ID`.
+       :ref:`Create a Video Component`.
 
        .. note::
          When you add the video ID, you do not need to add values to the

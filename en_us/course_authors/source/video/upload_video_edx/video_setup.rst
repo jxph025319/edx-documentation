@@ -38,9 +38,9 @@ people, to be video administrators. The video administrators periodically use
 the YouTube content management system (CMS) to access the video files that
 are hosted by YouTube and the reports that YouTube produces.
 
-Video administrators use the CMS to access your YouTube channels, the
-videos associated with those channels, and YouTube’s reporting tools. In
-general, the CMS enables an administrator to:
+Video administrators use the CMS to access YouTube channels, the videos
+associated with those channels, and YouTube’s reporting tools. In general, the
+CMS enables an administrator to:
 
 * Manage ownership of files hosted on YouTube.
 
@@ -52,20 +52,16 @@ general, the CMS enables an administrator to:
 Video administrators also work with course teams and edX partner support to
 distribute information and resolve questions about video files.
 
-EdX recommends that organizations identify specific individuals to be the
-video administrators for all of your courses. By working with the edX team
-over time, the video administrators can develop repeatable and consistent
-procedures for managing your video assets.
+EdX recommends that organizations identify specific individuals to be the video
+administrators for all courses. By working with the edX team over time, the
+video administrators can develop repeatable and consistent procedures for
+managing your video assets.
 
 .. _Establish Access to YouTube Account:
 
 ****************************************
 Establish Access to YouTube Account
 ****************************************
-
-=========================================
-Video Administrator Access to the Account
-=========================================
 
 For :ref:`video administrators<Identify Video Administrators>` to use the
 YouTube CMS, they must have administrative access to your CMS account. Because
@@ -76,9 +72,9 @@ specifically for this purpose and give it administrative privileges.
 This procedure only needs to be completed once and can be done by one of
 the video administrators.
 
-===================================
-Establishing Access to the Account
-===================================
+=====================================================
+Establishing Video Adminstrator Access to the Account
+=====================================================
 
 #. Create a single Google email (Gmail) account. The recommended format
    for the account name is your edx.org member identifier followed by
@@ -91,14 +87,14 @@ Establishing Access to the Account
    On receipt, the partner support team adds the Gmail address to your YouTube
    CMS account and gives the account administrative privileges. This process
    results in an activation message that is sent to your CMSmanager Gmail
-   account. Access to the CMS account is not provided until activation is
+   account. Access to the CMS account does not take effect until activation is
    complete.
 
 3. Check the Gmail account for the activation message from YouTube. These
    messages are typically routed to the Gmail "Social" inbox.
 
 #. To activate the account, click the "Visit the sign-up page" link in the
-   email message. A browser opens to the YouTube signup page.
+   email message. A browser opens to the YouTube sign-up page.
 
 #. Click **Use existing Google account**. You can now access the CMS account.
 
@@ -113,10 +109,6 @@ access to specific channels in your account.
 ****************************************
 Create YouTube Channels
 ****************************************
-
-===============================
-About YouTube Channels
-===============================
 
 For each course that your institution offers, a video administrator creates a
 YouTube "channel" to store that course's video files. A channel is,
@@ -141,14 +133,15 @@ Creating YouTube Channels
    the CMS account. The email address that you log in with is the owner of
    any channels that you create.
 
-#. In the navigation bar at left, click **CHANNELS**. A list of your channels
-   appears.
+#. In the navigation bar on the left, click **CHANNELS**. A list of your
+   channels appears.
 
-#. Above the list of channels click **Create New**. A popup window opens.
+#. Above the list of channels, click **Create New**. A popup window opens and
+   presents fields for information about the channel.
 
 #. Leave the check boxes under **Permissions** unselected, and then click
    **Continue**. (You can change the channel's permission settings at any
-   time.) The popup window presents fields for information about the channel.
+   time.)
 
 #. Provide a channel name that clearly and uniquely identifies the course.
    Example channel names include Water201x and Foundations of Chinese
@@ -164,7 +157,8 @@ Creating YouTube Channels
    upload feature for that course in Studio.
 
 Optionally, give management access to the channel to members of the
-corresponding course team.
+corresponding course team. For more information, see :ref:`Add a Channel
+Manager`.
 
 .. _Add a Channel Manager:
 
@@ -173,9 +167,9 @@ Adding a Channel Manager
 ===============================
 
 Video administrators can grant management access to each YouTube channel to
-members of the corresponding course team. Management access allows team
-members to perform limited administrative tasks, such as revising YouTube
-titles or changing a video's thumbnail. To provide these permissions, a video
+members of the corresponding course team. Management access allows team members
+to perform limited administrative tasks, such as revising YouTube titles or
+changing a video's thumbnail image. To provide these permissions, a video
 administrator obtains the email addresses of one or more course team members
 and invites them to manage the channel.
 
@@ -195,17 +189,17 @@ and invites them to manage the channel.
 #. Click **Add or remove managers**. A list of the current channel managers
    appears.
 
-#. Click **Add managers**. A popup opens.
+#. Click **Add managers**. A popup window opens.
 
-#. Supply the email address of a course team member and click **Invite**. An
+#. Enter the email address of a course team member and click **Invite**. An
    activation message is sent to the email address.
 
 #. Advise the course team member to expect and respond to the email message
    to activate the channel manager account. Activation must be complete for
    management access to be granted.
 
-   See steps 4-5 for :ref:`establishing access to a YouTube account<Establish
-   Access to YouTube Account>`.
+   For more information, see steps 4-5 for :ref:`establishing access to a
+   YouTube account<Establish Access to YouTube Account>`.
 
 Course team members who complete the activation process are channel managers.
 When they log in to YouTube at https://www.youtube.com using the email address

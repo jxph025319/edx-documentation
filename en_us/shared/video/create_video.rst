@@ -59,13 +59,13 @@ For example, you might use the following naming convention.
 
 ::
 
-  {course}_{year}_{segment}_{learning sequence}_{revision}.{type}
+  {course number}_{year}_{section}_{subsection}_{unit}_{version}.{type}
 
 This convention might yield the following file name.
 
 ::
 
-  SPU27_2015_S1_1_0.mp4
+  SPU27_2015_S1_SS3_U4_v2.mp4
 
 .. note::
   Include only alphanumeric characters and underscores in video file names. Do
@@ -79,14 +79,20 @@ This convention might yield the following file name.
 Video Compression Specifications
 =================================
 
-The following video compression specifications are strongly recommended, but
-not required.
+After you create a video, you upload the video to a hosting site so that the
+video is available for viewing. In a later step, you create a video component,
+and then you add a link to the video that you uploaded.
+
+You might upload your videos to YouTube, or you may use a different site such
+as Amazon Web Services (AWS) Simple Storage Service (S3). Different sites have
+different compression specifications. The following video compression
+specifications are strongly recommended, but not required.
 
 .. only:: Partners
 
   .. important::
-    Videos for courses on edx.org must follow the specifications for YouTube
-    videos.
+    Videos for courses on edx.org must comply with the following specifications
+    for YouTube videos.
 
 .. list-table::
    :widths: 10 20 20
@@ -95,7 +101,7 @@ not required.
    * - Output
      - **Publish to YouTube**
      - **Publish downloadable file to AWS S3**
-   * - Codec
+   * - :ref:`Codec<codec_g>`
      - H.264 .mp4
      - H.264 .mp4
    * - Resolution & Frame Rate (see note)
@@ -107,19 +113,20 @@ not required.
    * - Bit Rate
      - VBR, 2 pass
      - VBR, 2 pass
-   * - Target VBR
+   * - Target :ref:`VBR<VBR>`
      - 5 mbps
      - 1 mbps
-   * - Max VBR
+   * - Max :ref:`VBR<VBR>`
      - 7.5 mbps
      - 1.5 mbps
    * - Audio
-     - AAC 44.1 / 192 kbps
-     - AAC 44.1 / 192 kbps
+     - :ref:`AAC<AAC>` 44.1 / 192 kbps
+     - :ref:`AAC<AAC>` 44.1 / 192 kbps
 
 .. note::
  Typically, you export at the same frame rate that was used when you created
  the media file. For example, if you create the file in a country that uses the
- PAL system, you export at 25 fps instead of the NTSC standard of 29.97 fps.
+ :ref:`PAL<PAL>` system, you export at 25 fps instead of the :ref:`NTSC<NTSC>`
+ standard of 29.97 fps.
 
 .. include:: ../../../links/links.rst

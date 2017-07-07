@@ -22,9 +22,9 @@ undertaking.
 To help course teams at partner institutions deliver high quality video
 experiences to as many learners as possible, edX offers video processing
 services. For each video, these services create additional file formats that
-are transferred to multiple hosting services (YouTube CMS and Amazon AWS), and
-associate all of these file formats with a single video ID that the course team
-enters in a video component.
+are transferred to the YouTube content management system (CMS) and Amazon Web
+Services (AWS), and then associate all of these file formats with a single
+video ID that the course team enters in a video component.
 
 This section describes the steps to organize your team, upload video files to
 Studio for encoding, and monitor the status of your course videos.
