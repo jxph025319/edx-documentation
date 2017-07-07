@@ -300,17 +300,7 @@ posts, responses, and comments that regular course staff do not.
    discussions. Course authors and any team members who have the **Admin**
    role can grant discussion moderation roles to others.
 
-
-All of the discussion moderation and administration roles can perform the
-following tasks in course discussions.
-
-* Edit posts, comments, and responses at any level
-* Review posts that are flagged for misuse
-* Close or reopen posts
-* Pin posts
-* Mark responses to questions as correct answers
-
-The differences between the roles are as follows.
+The discussion moderation and administration roles are as follows.
 
 * **Discussion Administrator** - this role is the only discussion management role
   that can give discussion moderation roles to other users. It is usually
@@ -342,6 +332,17 @@ The differences between the roles are as follows.
   "Alumni" cohort, even in discussion topics that are unified. For more
   information about divided discussions, see :ref:`About Divided Discussions`
   and :ref:`Managing Divided Discussion Topics`.
+
+All of the discussion moderation and administration roles can perform the
+following tasks in course discussions.
+
+* Edit posts, comments, and responses at any level
+* Review posts that are flagged for misuse
+* Close or reopen posts
+* Pin posts
+* Mark responses to questions as correct answers
+
+
 
 
 .. note:: Discussion moderation tasks are only available when members of the
