@@ -80,17 +80,17 @@ Divided Discussions` and :ref:`Managing Divided Discussion Topics`.
 
 Members of the course community, learners as well as the course team, can be
 given permission to moderate or administer course discussions through a set of
-discussion administration roles.
+discussion moderation or administration roles.
 
 .. note:: The course team members that you set up in Studio or in the LMS are
-   not automatically granted discussion administration roles. Only people who
-   have a discussion administration role can view all of the discussion
-   contributions, for example in courses using cohorts.
+   not automatically granted discussion moderation roles. Only people who have
+   a discussion moderation role can view all discussion contributions in a
+   course.
 
-   Discussion administration roles must be explicitly granted to members of
+   Discussion moderation roles must be explicitly granted to members of
    the course team for them to moderate or administer course discussions. The
-   course author, and any team members with the Admin role, can grant
-   discussion administration roles. For information about assigning discussion
+   course author, or any team member who has the **Admin** role, can grant
+   discussion moderation roles. For information about assigning discussion
    privileges, see :ref:`Assigning_discussion_roles`.
 
 .. note:: Not all options for moderating discussions are available when
@@ -284,25 +284,29 @@ topics, see :ref:`Visibility of Discussion Topics`.
 
 .. _Assigning_discussion_roles:
 
-*************************************************
-Assign Discussion Administration Roles
-*************************************************
+**********************************
+Assign Discussion Moderation Roles
+**********************************
 
 You can designate a team of people to help you run course discussions. Team
-members who have a discussion administration role have additional options for
-working with posts, responses, and comments.
+members who have a discussion moderation role have options for working with
+posts, responses, and comments that regular course staff do not.
 
+.. important:: Course team members that you set up in Studio or in the LMS
+   are not automatically granted discussion moderator roles.
 
-.. important:: The course team members that you set up in Studio or in the LMS
-   are not automatically granted discussion administration roles.
-
-   Discussion administration roles must be explicitly granted to members of
-   the course team for them to be able to moderate or administer course
-   discussions. The course author and any team members who have the Admin role
-   can grant discussion administration roles.
+   Discussion moderator roles must be explicitly granted to members of the
+   course team for them to be able to moderate or administer course
+   discussions. Course authors and any team members who have the **Admin**
+   role can grant discussion moderation roles to others.
 
 Different options for working with discussions are available through
 the following roles.
+
+* Discussion Administrators
+* Discussion Moderators
+* Community TAs
+* Group Community TAs
 
 .. note:: The options for moderating discussions described below are only
    available when members of the discussion administration team work in a web
@@ -311,75 +315,99 @@ the following roles.
    For more information about differences between discussions on the edx.org
    site and on the mobile apps, see :ref:`Discussions on Mobile Apps`.
 
-* Discussion moderators can edit and delete messages at any level, review
-  messages flagged for misuse, close and reopen posts, pin posts, and mark
-  responses as correct answers.
+Each of the roles listed above can perform the following tasks in course
+discussions:
 
-  Posts, responses, and comments made by moderators are marked with a
-  **Staff** identifier. The moderator role is often given to course team
-  members who already have the Staff role.
+* Edit posts, comments, and responses at any level
+* Review posts that are flagged for misuse
+* Close or reopen posts
+* Pin posts
+* Mark responses to questions as correct answers
 
-.. removed this clause from 1st sentence per JAAkana and MHoeber: , and, if the
-.. course is cohorted, see posts from all cohorts
+The differences between the roles are as follows.
 
-* Discussion community teaching assistants (TAs) have the same options for
-  working with discussions as moderators do.
+* Discussion Administrator - this role is the only discussion management role
+  that can give discussion moderation roles to other users. It is usually
+  reserved for course team members who already have the staff **Admin** role.
+  Posts, responses, and comments made by Discussion Administrators are marked by a
+  **Staff** identifier.
 
-  Posts, responses, and comments made by community TAs are marked with a
-  **Community TA** identifier. The community TA role is often given to
-  learners.
+* Discussion Moderator - this role is usually given to course team members
+  who already have a Staff role. Posts, responses, and comments made by
+  Discussion Moderators are marked with a **Staff** identifier.
 
-* Discussion admins have the same options for working with discussions as
-  moderators, and their posts, responses, and comments have the same **Staff**
-  identifiers.
+* Community TA (teaching assistant) - this role is given to learners to help
+  course teams moderate discussions. If discussions are divided, community TAs
+  can see and moderate posts regardless of the group that the contributor belongs
+  to. Posts, responses, and comments made by Community TAs are marked with a
+  **Community TA** identifier.
 
-  This role can be reserved for assignment to course team members
-  who have the Admin role only: the discussion admins can then both
-  moderate discussions and give other users discussion management roles
-  whenever necessary.
+* Group Community TA - this role is given to learners to help course teams
+  moderate discussions. This role has discussion moderation capability only if
+  course discussions are divided based on either cohorts or enrollment tracks.
+  Posts, responses, and comments made by Group Community TAs are marked with a
+  **Community TA** identifier.
 
-Before you can assign roles to your discussion team, you need their email
-addresses or usernames.
+  If the course has divided discussions, Group Community TAs can see and
+  moderate only the posts of learners who are in the same group that they
+  themselves belong to. For example, if course discussions are divided based
+  on cohort, a Group Community TA who is in the "Alumni" cohort can only see
+  and moderate posts, responses, and comments by other learners in the
+  "Alumni" cohort, even in discussion topics that are unified. For more
+  information about divided discussions, see :ref:`About Divided Discussions`
+  and :ref:`Managing Divided Discussion Topics`.
 
-* To get this information for a course team member, in the LMS select
-  **Instructor** to access the instructor dashboard. Select **Membership**, and
-  then select either **Staff** or **Admin**.
-
-* To get this information for an enrolled learner, in the LMS select
-  **Instructor** to access the instructor dashboard. Select **Data Download**,
-  and then **Download profile information as a CSV**.
 
 ====================================
-Assign Roles
+Assign Discussion Roles
 ====================================
 
 You can assign a course team role to any user who is already enrolled in your
-course. To assign a discussion administration role, you must be the course
-author or an Admin.
+course. To assign a discussion moderation or administration role, you must be
+the course author or have the **Admin** role.
+
+.. note:: Before you can assign roles to your discussion team, you need their
+   email addresses or usernames.
+
+   * To obtain the email address or username for a course team member, in the LMS select
+     **Instructor** to access the instructor dashboard. Select **Membership**, and
+     then select either **Staff** or **Admin**.
+
+   * To obtain the email address or username for an enrolled learner, in the LMS select
+     **Instructor** to access the instructor dashboard. Select **Data Download**,
+     and then **Download profile information as a CSV**.
+
+
+To add a user to a course team role, follow these steps.
 
 #. View the live version of the course.
 
-#. Select **Instructor**, and then select **Membership**.
+#. In the LMS, select **Instructor**, and then select **Membership**.
 
-#. In the **Course Team Management** section, select **Discussion Admins**,
-   **Discussion Moderators**, or **Discussion Community TAs**.
+#. In the **Course Team Management** section, select the name of the role that
+   you want to add users to.
 
-#. Under the list of users who currently have that role, enter an email address
-   or username, and then select **Add** for the role type.
+#. In the **Enter username or email** field, enter the email address or
+   username of the user to whom you are assigning the role, and then select
+   **Add**.
+
+The username and email address of the user to whom you granted the role are
+added to the list of users who currently have the selected role.
 
 
 ==============
 Remove Roles
 ==============
 
-To remove a role from a user, you must be the course author or an Admin.
+To remove a role from a user, you must be the course author or have the
+**Admin** role.
 
 #. View the live version of the course.
 
-#. Select **Instructor**, and then select **Membership**.
+#. In the LMS, select **Instructor**, and then select **Membership**.
 
-#. In the **Course Team Management** section, select **Discussion Admins**,
-   **Discussion Moderators**, or **Discussion Community TAs**.
+#. In the **Course Team Management** section, select the name of the role from
+   which you are removing a user.
 
 #. From the list of users who currently have that role, select the user you
    want to remove, and then select **Revoke access**.

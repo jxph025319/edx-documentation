@@ -39,11 +39,13 @@ divided discussions.
  help learners make the most of their participation in course discussions.
 
 
-Course team members who have the discussion admin, discussion moderator, or
-community TA role see the same indicator of who can read each post. Unlike the
-learners, however, team members with discussion privileges can read and
+Course team members who have the discussion admin, discussion moderator,
+community TA or group community TA role see the indicator of who can read each
+post. Team members with these roles, except group community TAs, can read and
 contribute to every post, regardless of the group membership of the learner
-who posted it.
+who posted it. Group community TAs can moderate discussions only if the course
+uses divided discussions; they can see and manage only posts that were added
+by other members of their group.
 
 .. note:: Course team members must have the discussion moderator or discussion
  admin role in addition to the Staff or Admin role to be able to view posts
