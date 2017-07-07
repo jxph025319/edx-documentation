@@ -473,7 +473,8 @@ In a live course, after the unit is published and if there are no pending
 changes, previewing a unit is exactly the same as viewing the live version of
 the unit.
 
-To preview the unit, select **Preview** above the status panel in the Studio unit page.
+To preview the unit, select **Preview** above the status panel in the Studio
+unit page.
 
 The unit opens in preview mode in the LMS.
 
@@ -634,7 +635,7 @@ You are prompted to confirm that you want to make the unit visible to learners.
 Delete a Unit
 ********************************
 
-You delete a unit from the course outline.
+You delete a unit from the course outline in Studio.
 
 When you delete a unit, you delete all components within the unit.
 
@@ -645,7 +646,8 @@ When you delete a unit, you delete all components within the unit.
 
 To delete a unit, follow these steps.
 
-#. Select the **Delete** icon in the box for the unit you want to delete.
+#. On the course outline page in Studio, select the **Delete** icon in the box
+   for the unit you want to delete.
 
    .. image:: ../../../shared/images/unit-delete.png
     :alt: The Course Outline page with the Delete icons for several units
