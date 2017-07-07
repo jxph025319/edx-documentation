@@ -284,9 +284,9 @@ topics, see :ref:`Visibility of Discussion Topics`.
 
 .. _Assigning_discussion_roles:
 
-**********************************
-Assign Discussion Moderation Roles
-**********************************
+**************************************
+Assigning Discussion Moderation Roles
+**************************************
 
 You can designate a team of people to help you run course discussions. Team
 members who have a discussion moderation role have options for working with
@@ -300,23 +300,9 @@ posts, responses, and comments that regular course staff do not.
    discussions. Course authors and any team members who have the **Admin**
    role can grant discussion moderation roles to others.
 
-Different options for working with discussions are available through
-the following roles.
 
-* Discussion Administrators
-* Discussion Moderators
-* Community TAs
-* Group Community TAs
-
-.. note:: The options for moderating discussions described below are only
-   available when members of the discussion administration team work in a web
-   browser. The edX mobile apps do not currently offer moderation options.
-
-   For more information about differences between discussions on the edx.org
-   site and on the mobile apps, see :ref:`Discussions on Mobile Apps`.
-
-Each of the roles listed above can perform the following tasks in course
-discussions:
+All of the discussion moderation and administration roles can perform the
+following tasks in course discussions.
 
 * Edit posts, comments, and responses at any level
 * Review posts that are flagged for misuse
@@ -326,23 +312,23 @@ discussions:
 
 The differences between the roles are as follows.
 
-* Discussion Administrator - this role is the only discussion management role
+* **Discussion Administrator** - this role is the only discussion management role
   that can give discussion moderation roles to other users. It is usually
   reserved for course team members who already have the staff **Admin** role.
   Posts, responses, and comments made by Discussion Administrators are marked by a
   **Staff** identifier.
 
-* Discussion Moderator - this role is usually given to course team members
+* **Discussion Moderator** - this role is usually given to course team members
   who already have a Staff role. Posts, responses, and comments made by
   Discussion Moderators are marked with a **Staff** identifier.
 
-* Community TA (teaching assistant) - this role is given to learners to help
+* **Community TA (teaching assistant)** - this role is given to learners to help
   course teams moderate discussions. If discussions are divided, community TAs
   can see and moderate posts regardless of the group that the contributor belongs
   to. Posts, responses, and comments made by Community TAs are marked with a
   **Community TA** identifier.
 
-* Group Community TA - this role is given to learners to help course teams
+* **Group Community TA** - this role is given to learners to help course teams
   moderate discussions. This role has discussion moderation capability only if
   course discussions are divided based on either cohorts or enrollment tracks.
   Posts, responses, and comments made by Group Community TAs are marked with a
@@ -356,6 +342,14 @@ The differences between the roles are as follows.
   "Alumni" cohort, even in discussion topics that are unified. For more
   information about divided discussions, see :ref:`About Divided Discussions`
   and :ref:`Managing Divided Discussion Topics`.
+
+
+.. note:: Discussion moderation tasks are only available when members of the
+   discussion team work in a web browser. The edX mobile apps do not currently
+   offer moderation options.
+
+   For more information about differences between discussions on the edx.org
+   site and on the mobile apps, see :ref:`Discussions on Mobile Apps`.
 
 
 ====================================
