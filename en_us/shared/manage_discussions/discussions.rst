@@ -312,17 +312,17 @@ The discussion moderation and administration roles are as follows.
   who already have a Staff role. Posts, responses, and comments made by
   Discussion Moderators are marked with a **Staff** identifier.
 
-* **Community TA (teaching assistant)** - this role is given to learners to help
+* **Community TA (teaching assistant)** - this role is given to learners who can help
   course teams moderate discussions. If discussions are divided, community TAs
   can see and moderate posts regardless of the group that the contributor belongs
   to. Posts, responses, and comments made by Community TAs are marked with a
   **Community TA** identifier.
 
-* **Group Community TA** - this role is given to learners to help course teams
-  moderate discussions. This role has discussion moderation capability only if
-  course discussions are divided based on either cohorts or enrollment tracks.
-  Posts, responses, and comments made by Group Community TAs are marked with a
-  **Community TA** identifier.
+* **Group Community TA** - this role is given to learners who can help course teams
+  moderate discussions. The Group Community TA role has discussion
+  moderation capability only if course discussions are divided based on
+  either cohorts or enrollment tracks. Posts, responses, and comments made
+  by Group Community TAs are marked with a **Community TA** identifier.
 
   If the course has divided discussions, Group Community TAs can see and
   moderate only the posts of learners who are in the same group that they
