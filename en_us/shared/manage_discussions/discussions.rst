@@ -318,13 +318,13 @@ The discussion moderation and administration roles are as follows.
   to. Posts, responses, and comments made by Community TAs are marked with a
   **Community TA** identifier.
 
-* **Group Community TA** - this role is given to learners who can help course teams
-  moderate discussions. The Group Community TA role has discussion
-  moderation capability only if course discussions are divided based on
-  either cohorts or enrollment tracks. Posts, responses, and comments made
-  by Group Community TAs are marked with a **Community TA** identifier.
+* **Group Community TA** - this role is given to learners who can help course
+  teams moderate discussions for a specific group of learners. The Group
+  Community TA role has discussion moderation capability only if course
+  discussions are divided. Posts, responses, and comments made by Group
+  Community TAs are marked with a **Community TA** identifier.
 
-  If the course has divided discussions, Group Community TAs can see and
+  If a course has divided discussions, Group Community TAs can see and
   moderate only the posts of learners who are in the same group that they
   themselves belong to. For example, if course discussions are divided based
   on cohort, a Group Community TA who is in the "Alumni" cohort can only see
@@ -336,13 +336,11 @@ The discussion moderation and administration roles are as follows.
 All of the discussion moderation and administration roles can perform the
 following tasks in course discussions.
 
-* Edit posts, comments, and responses at any level
+* Edit posts, comments, and responses
 * Review posts that are flagged for misuse
 * Close or reopen posts
 * Pin posts
 * Mark responses to questions as correct answers
-
-
 
 
 .. note:: Discussion moderation tasks are only available when members of the
