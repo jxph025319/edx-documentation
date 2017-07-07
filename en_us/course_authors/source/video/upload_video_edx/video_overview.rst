@@ -9,10 +9,11 @@ Video Processing Overview
   information about adding video files to courses that run on Edge, see
   :ref:`Step 3. Upload a Video for an edx Edge Course <Upload Video>`.
 
-This section provides an overview of the video process for edX partners. This
-process creates a single video ID for each video. This video ID represents
-files for each of the different video formats as well as the hosting services
-for these files. The following diagram shows a simplified view of this process.
+This section provides an overview of the automated video process for edX
+partners. This process creates a single video ID for each video. This video ID
+represents files for each of the different video formats as well as the hosting
+services for these files. The following diagram shows a simplified view of this
+process.
 
 .. image:: ../../../../shared/images/encoding_proc_overview.png
  :width: 700
@@ -21,12 +22,14 @@ for these files. The following diagram shows a simplified view of this process.
      YouTube and AWS, and providing the video ID to the course team. The course
      team monitors processing and adds the video to a course.
 
+For a more detailed diagram that shows the output of the automated video
+process, see :ref:`Video Encoding and Hosting Overview`.
 
 .. important::
- The edX automation process **does not** include captioning services. Your
- course teams use your organization's current workflow to generate transcripts
- for your video files and then add the transcripts to the video in Studio. For
- more information, see :ref:`Add a Video Transcript`.
+ The edX video process **does not** include captioning services. Your course
+ teams use your organization's current workflow to generate transcripts for
+ your video files and then add the transcripts to the video in Studio. For more
+ information, see :ref:`Add a Video Transcript`.
 
 For more information, see the following sections.
 
@@ -72,24 +75,28 @@ If a step does not complete successfully, the process automatically tries again
 multiple times.
 
 Course teams can track the status of each video file on the Studio **Video
-Uploads** page as the videos go through automated processing.
+Uploads** page as the videos go through automated processing. For more
+information, see :ref:`Monitor Video Processing`.
 
 .. note::
- The edX automation process **does not** include captioning services. Your
- course teams use your institution's current workflow to generate transcripts
- for your video files, and then add them to the video in Studio. For more
- information, see :ref:`Add a Video Transcript`.
+ The edX video process **does not** include captioning services. Your course
+ teams use your institution's current workflow to generate transcripts for your
+ video files, and then add them to the video in Studio. For more information,
+ see :ref:`Add a Video Transcript`.
 
 **************************************
 Overview of Adding a Video to a Course
 **************************************
 
 In Studio, course teams can monitor the progress of each video that they upload
-and obtain the unique video ID for the video. After the automation process is
+and obtain the unique video ID for the video. After the video process is
 complete and the encoded video files reach the edX servers successfully, the
-video that the course team uploaded has a status of "Ready". The course team
-can then add the video ID and the video transcript to a video component in the
-course outline. For more information, see :ref:`Adding Videos to a Course`.
+video that the course team uploaded has a status of "Ready" on the **Video
+Uploads** page. For more information, see :ref:`Monitor Video Processing`.
+
+When the video status is "Ready", the course team can add the video ID and the
+video transcript to a video component in the course outline. For more
+information, see :ref:`Adding Videos to a Course`.
 
 .. image:: ../../../../shared/images/add_video_process.png
  :width: 300

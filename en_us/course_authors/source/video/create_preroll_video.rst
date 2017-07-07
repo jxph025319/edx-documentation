@@ -194,10 +194,9 @@ To identify the pre-roll video for your course, follow these steps.
 
 #. After the comma and the space, enter ``"transcripts": {}``.
 
-#. Inside the pair of braces for the transcripts, place the cursor after the
-   video ID information, and then specify the language code and file name of
-   the transcript file that you uploaded to the **Files & Uploads** page as
-   ``"language_code": "file_name"``.
+#. Inside the pair of braces for the transcripts, specify the language code and
+   file name of the transcript file that you uploaded to the **Files &
+   Uploads** page as ``"language_code": "file_name"``.
 
    ::
 
